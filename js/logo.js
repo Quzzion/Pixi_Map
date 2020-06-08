@@ -1,0 +1,10 @@
+console.log("log.js is ready");
+const userlogo = PIXI.Sprite.from("images/userlogo.png");
+userlogo.x = 585;
+userlogo.y = 761;
+userlogo.visible = true;
+userlogo.zIndex = 78;
+userlogo.interactive = false;
+userlogo.buttonMode = true;
+userlogo.anchor.set(0.5);
+app.stage.addChild(userlogo);
